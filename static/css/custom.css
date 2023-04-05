@@ -1,0 +1,15 @@
+:root {
+    --ct-code-font-family: "等距更纱黑体 Slab SC", Fira Code, Monaco, Menlo, Consolas, 'COURIER NEW', monospace;
+    --ls-font-family: "等距更纱黑体 SC", 'fira sans', 'segoe UI Emoji', 'sarasa ui sc', sans-serif;
+}
+
+#root>div,
+html,
+body {
+    font-family: var(--ls-font-family);
+}
+
+:not(pre)>code,
+.CodeMirror {
+    font-family: var(--ct-code-font-family);
+}
